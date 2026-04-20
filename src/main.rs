@@ -20,7 +20,7 @@ fn main() {
 
     match &cli.command {
         Commands::Init { path } => {
-            init::init(path);
+            init::init(&path);
         }
     }
 }
